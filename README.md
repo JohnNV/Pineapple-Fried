@@ -104,7 +104,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 ```
 @import "Cohesion/Cohesion.css";
 
-@import "natsumi/natsumi.css";
+/* @import "natsumi/natsumi.css"; (Make sure regular Natsumi is imported here. The order matters.) */
 
 @import "Wazz/Wazz.css";
 
