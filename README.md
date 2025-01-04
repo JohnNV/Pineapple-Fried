@@ -62,6 +62,15 @@ More personal changes with some community additions.
 **Pineapple Fried** and its components are not available on the Zen Mods page, as this isn't intended to be a Mod. You will need to
 install it by copying the files to your profile's chrome folder. Here's a step-by-step guide to follow:
 
+1. userChrome.css
+2. userContent.css
+3. Brower Configs (in about:config)
+4. Zen Settings
+5. Toolbar layout
+6. Mods
+7. Browser Transparency
+8. Gradients (optional)
+9. Extensions (optional)
 
 #
 
@@ -91,7 +100,6 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 > - You can Live Edit mod files, just search for the Module name in the Style Browser (Ctrl+Alt+Shift+I)
 
 ## userContent.css
-
 
 
 
