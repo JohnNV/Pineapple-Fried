@@ -234,7 +234,7 @@ These are the configs you need to use. If they do not exist, type the config and
 | OS | Link |
 | --- | --- |
 | Windows 10 | [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) |
-| MacOS | Something |
+| MacOS | Set Gradient Contrast to 0 to enable transparency |
 | Linux | |
 | - KDE | [KWin Better Blur](https://github.com/taj-ny/kwin-effects-forceblur) |
 | - Gnome | [Blur My Shell](https://github.com/aunetx/blur-my-shell) |
