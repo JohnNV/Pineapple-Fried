@@ -5,8 +5,11 @@ If you already have one, append the import statement below at the top of your us
 
 */
 
+<<<<<<< HEAD
 @import "natsumi/natsumi.css";
 
+=======
+>>>>>>> 6838c1c93003646b8c5970a4581676f72de07b3b
 @import "pineapple-fried/pineapple-fried.css";
 
 /* You can import additional mods above, or add your own userchrome CSS below. */

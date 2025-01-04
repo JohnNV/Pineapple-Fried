@@ -28,5 +28,5 @@ jobs:
       - name: Upload package
         uses: actions/upload-artifact@v4
         with:
-          name: package
+          name: pineapple-fried-bento
           path: "package.zip"

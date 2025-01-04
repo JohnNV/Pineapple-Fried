@@ -98,19 +98,14 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 **a):** If you have not already, follow the [Zen Live Editing](https://docs.zen-browser.app/guides/live-editing) guide to first make your own **chrome** folder.
 
-**b):** Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wass-tweaks"** folders from above and drop them into your **"chrome"** folder. 
+**b):** Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wazz-tweaks"** folders from above or the releases page and drop them into your **"chrome"** folder. 
 
-**c):** Add these import statements to **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
+**c):** Add this import statement to **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
 ```
-@import "Cohesion/Cohesion.css";
-
-@import "natsumi/natsumi.css";
-
-@import "Wazz/Wazz.css";
-
-@import "natsumi-tweaks/natsumi-tweaks.css";
+@import "pineapple-fried/pineapple-fried.css";
 ```
 > [!Note]
+> - Make sure regular Natsumi is imported above Pineapple Fried
 > - Remove any of my personal CSS / Cohesion CSS from your **userChrome.css** file ***if you have previously used it.***
 > - It's now all being called via the import statements in your **userChrome.css** file.
 > - You may still add other custom CSS to your userChrome.css underneath the imports.
@@ -122,13 +117,10 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 **a):** Download the **"zen-new-tab"** folder from above and drop it into your **"chrome"** folder
 
-**b):** Add these import statements to **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
+**b):** Add this import statement to **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
 ```
 /* zen new tabs */
 @import "zen-new-tabs/zen-new-tabs.css";
-
-/* Natsumi Pages */
-@import "natsumi-pages/natsumi-pages.css";
 ```
 
 <br>
