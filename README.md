@@ -185,7 +185,7 @@ These are the configs you need to use. If they do not exist, type the config and
 
 ![image](https://github.com/user-attachments/assets/bf7919db-9e69-4aa5-8bfb-2a21d8da7813)
 
-`Account` | `Bookmark toolbar items` | `Proton Pass` | `4x Spacers` | `Nav buttons` | `URL Bar` | `Copy URL button` | `4x Spacers`
+`Account` | `Bookmark toolbar items` | `4x Spacers` | `Nav buttons` | `URL Bar` | `Copy URL button` | `4x Spacers`
 
 <br>
 
@@ -237,19 +237,38 @@ These are the configs you need to use. If they do not exist, type the config and
 
 #### - DWMBlurGlass
 
+
 ### MacOS
 
 #### - Something
 
 ### Linux
 
-#### - KDE
+#### KDE
 
-#### - Gnome
+#### - Force Blur
 
-## Gradients (optional)
+#### Gnome
 
-## Extensions (optional)
+#### - Blur My Shell
+
+<br>
+
+## 8. Gradients (optional)
+
+If you like the colors you see in the screenshots above, you can manually copy these gradient settings. 
+
+To edit gradient, right click Tab Bar and select `Change Theme Color`.
+
+![image](https://github.com/user-attachments/assets/fb165906-7601-4421-8a52-40b8dc3441e9)
+
+![image](https://github.com/user-attachments/assets/db37488d-a723-41d2-9ff2-ff7e21459608)
+
+![image](https://github.com/user-attachments/assets/bbe4fff5-982a-4324-bb77-3e73e4b2fa05)
+
+
+
+## 9. Extensions (optional)
 
 
 <br>
