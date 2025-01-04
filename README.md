@@ -137,9 +137,8 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 <br>
 
 ## 3. Browser configs (in about:config)
-These are the configs you need to use. If they do not exist, type the config and click the **+** button to create it.
 
-<br>
+These are the configs you need to use. If they do not exist, type the config and click the **+** button to create it.
 
 ### **a):** Zen Options
 - `browser.tabs.allow_transparent_browser` = `true`*
@@ -233,24 +232,15 @@ These are the configs you need to use. If they do not exist, type the config and
   - Extend Frame Into Client Area: `Off`
   - Blur Behind: `On`
 
-### Windows 10
+### Alternitives
 
-#### - DWMBlurGlass
-
-
-### MacOS
-
-#### - Something
-
-### Linux
-
-#### KDE
-
-#### - Force Blur
-
-#### Gnome
-
-#### - Blur My Shell
+| OS | Link |
+| --- | --- |
+| Windows 10 | [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) |
+| MacOS | Something |
+| Linux | |
+| - KDE | [KWin Better Blur](https://github.com/taj-ny/kwin-effects-forceblur) |
+| - Gnome | [Blur My Shell](https://github.com/aunetx/blur-my-shell) |
 
 <br>
 
@@ -266,15 +256,14 @@ To edit gradient, right click Tab Bar and select `Change Theme Color`.
 
 ![image](https://github.com/user-attachments/assets/bbe4fff5-982a-4324-bb77-3e73e4b2fa05)
 
-
-
-## 9. Extensions (optional)
-
-
 <br>
 
-#
+## 9. Extensions (optional)
+* [Copy Tab URL](https://addons.mozilla.org/en-US/firefox/addon/zen-copy-tab-url/) *Adds the Copy URL button to the URL bar.*
+* [Proton Pass](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/) *Is the purple diamond at the far left of the URL bar.*
+* [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) *Fixes missing backgrounds on websites.*
 
+<br>
 
 # FAQ
 ### "Can I use other userchromes with Pineapple Fried?"
