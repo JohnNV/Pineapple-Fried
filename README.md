@@ -73,7 +73,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 2. Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wass-tweaks"** folders from above and drop them into your **"chrome"** folder. 
 
-3. Add these import statements to your **userChrome.css** (*or download the provided userChrome.css file and place it in your **chrome** folder*):
+3. Add these import statements to your **userChrome.css** (*or download the userChrome.css file from above and place it in your **chrome** folder*):
 ```
 /* Wazz-Tweaks */
 @import "wazz/wazz.css";
@@ -122,7 +122,7 @@ Sure! Just paste it right below the Pineapple Fried loader (userChrome.css) and 
 userchrome alongside Pineapple Fried.
 
 ### "Can I disable individual features?"
-You're free to disable loading certain modules (CSS files) if you feel like it. But Natsumi-Tweaks will still need
+You're free to disable loading certain modules (CSS files) if you feel like it. But Natsumi will still need
 to load config.css, natsumi/preload.css and natsumi/postload.css for things to work.
 
 ### "Why is userChrome.css so empty?"
