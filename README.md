@@ -98,7 +98,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 **a):** If you have not already, follow the [Zen Live Editing](https://docs.zen-browser.app/guides/live-editing) guide to first make your own **chrome** folder.
 
-**b):** Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wazz-tweaks"** folders from above or the releases page and drop them into your **"chrome"** folder. 
+**b):** Download the **"pineapple-fried"** folder from above or the Source Code from the releases page and drop it into your **"chrome"** folder. 
 
 **c):** Add this import statement to **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
 ```
