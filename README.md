@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/2bf31d3a-18e0-4405-9389-8d0f036127a4
 
 Get the stylish appearance, animations, and features of [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser/tree/main), made compatible with Cohesion with some personal tweaks. 
 
-**This is a compatibility layer that only works if regular Natsumi is already installed.*
+**This is a compatibility layer. It requires Natsumi to already be installed.*
 
 ![image](https://github.com/user-attachments/assets/dad73ffd-36c0-4fe5-ad86-db207d900bf5)
 
@@ -83,24 +83,26 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 1. [userChrome.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#userchromecss)
 2. [userContent.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#usercontentcss)
 3. [Brower Configs (in about:config)](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#browser-configs-in-aboutconfig)
-4. Zen Settings
-5. Toolbar layout
-6. Mods
-7. Browser Transparency
-8. Gradients (optional)
-9. Extensions (optional)
+4. [Zen Settings](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#zen-settings)
+5. [Toolbar layout](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#toolbar-layout)
+6. [Mods](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#mods)
+7. [Browser Transparency](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#browser-transparency)
+8. [Gradients](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#gradients) (optional)
+9. [Extensions](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#extensions) (optional)
 
 #
 
+*The following guide assumes Natsumi Browser is already installed.*
+
 <br>
 
-## userChrome.css
+## 1. userChrome.css
 
-1. If you have not already, follow the [Zen Live Editing](https://docs.zen-browser.app/guides/live-editing) guide to first make your own **chrome** folder.
+**a):** If you have not already, follow the [Zen Live Editing](https://docs.zen-browser.app/guides/live-editing) guide to first make your own **chrome** folder.
 
-2. Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wass-tweaks"** folders from above and drop them into your **"chrome"** folder. 
+**b):** Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wass-tweaks"** folders from above and drop them into your **"chrome"** folder. 
 
-3. Add these import statements to your **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
+**c):** Add these import statements to **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
 ```
 /* Wazz-Tweaks */
 @import "wazz/wazz.css";
@@ -112,20 +114,34 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 @import "natsumi-tweaks/natsumi-tweaks.css";
 ```
 > [!Note]
-> - Remove any of my personal CSS / Cohesion CSS from your **userChrome.css** file if you have previously used it.
+> - Remove any of my personal CSS / Cohesion CSS from your **userChrome.css** file ***if you have previously used it.***
 > - It's now all being called via the import statements in your **userChrome.css** file.
 > - You may still add other custom CSS to your userChrome.css underneath the imports.
 > - You can Live Edit mod files, just search for the Module name in the Style Browser (Ctrl+Alt+Shift+I)
 
-## userContent.css
+<br>
 
-1. Download the **"newtab"** folder from above and drop it into your **"chrome"** folder
-2. Add these import statements to your **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
+## 2. userContent.css
 
-## Browser configs (in about:config)
+**a):** Download the **"newtab"** folder from above and drop it into your **"chrome"** folder
+
+**b):** Add these import statements to **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
+```
+/* zen new tabs */
+@import "zen-new-tabs/zen-new-tabs.css";
+
+/* Natsumi Pages */
+@import "natsumi-pages/natsumi-pages.css";
+```
+
+<br>
+
+## 3. Browser configs (in about:config)
 These are the configs you need to use. If they do not exist, type the config and click the **+** button to create it.
 
-### Zen Options
+<br>
+
+### **a):** Zen Options
 - `browser.tabs.allow_transparent_browser` = `true`*
 - `zen.workspaces.show-workspace-indicator` = `false`
   
@@ -134,33 +150,89 @@ These are the configs you need to use. If they do not exist, type the config and
 >
 >*Extensions like [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) fix this by setting their own background.*
 
-### Natsumi options
+### **b):** Natsumi options
 - `natsumi.theme.clip-path-force-polygon`: `true`
 - `natsumi.sidebar.blur-zen-sidebar`: `true`
 - `natsumi.sidebar.containers-no-inactive-border`: `true`
 - `natsumi.sidebar.enable-tab-groups`: `true`*
 - `natsumi.sidebar.zen-sidebar-glass-effect`: `true`
 
-## Zen Settings
+<br>
 
-- Look and Feel 
+## 4. Zen Settings
+
+**a):** Look and Feel 
   - Select '__Multiple Toolbars__'
   - Uncheck '__Show New Tab Button on Tab List__'
   - Uncheck '__Show border for the bottom icons__'
   - Zen URL bar Behavior = Normal
-- Tab Management
+    
+**b):** Tab Management
   - Check '__Hide the default container indicator in the tab bar__'
   - Check '__Allow workspaces have their own pinned tabs__'
   - Check '__Display workspaces as an icon strip__'
-- Home 
+    
+**c):** Home 
   - Homepage and new windows: Firefox Home (default)
   - New tabs: Firefox Home (default)
 
-## Toolbar Layout
+<br>
+
+## 5. Toolbar Layout
+
+- Right click on the Tab Bar and select 'Customize Toolbar'
+- Click and drag items to arrange them in this same order:
+
+![image](https://github.com/user-attachments/assets/bf7919db-9e69-4aa5-8bfb-2a21d8da7813)
+
+`Account` | `Bookmark toolbar items` | `Proton Pass` | `4x Spacers` | `Nav buttons` | `URL Bar` | `Copy URL button` | `4x Spacers`
+
+<br>
 
 ## Mods
 
+* [Bottom Essentials](https://zen-browser.app/mods/477bc813-c333-4747-813e-00e0420ceec0)
+* [Better Unloaded Tabs](https://zen-browser.app/mods/f7c71d9a-bce2-420f-ae44-a64bd92975ab)
+* [Cleaner Extension Menu](https://zen-browser.app/mods/1e86cf37-a127-4f24-b919-d265b5ce29a0)
+* [Cleaned URL Bar](https://zen-browser.app/mods/a5f6a231-e3c8-4ce8-8a8e-3e93efd6adec)
+* [Floating Status Bar](https://zen-browser.app/mods/906c6915-5677-48ff-9bfc-096a02a72379)
+* [Hide Extension Name](https://zen-browser.app/mods/cb15abdb-0514-4e09-8ce5-722cf1f4a20f)
+* [Midnight](https://zen-browser.app/mods/5ca67725-1f43-4ff2-9fcf-0c59af71c73a)
+* [Only Close On Hover](https://zen-browser.app/mods/4596d8f9-f0b7-4aeb-aa92-851222dc1888)
+* [SuperPins](https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc)
+
+  **SuperPins Settings:**
+  * [x] Makes pinned tabs look similar to Essentials (icon only in a grid)
+  * [x] Adds a background to the pinned tabs
+  * Select the gap between Essentials: ```Normal```
+* [Super URL Bar](https://zen-browser.app/mods/d93e67f8-e5e1-401e-9b82-f9d5bab231e6)
+
+  **Super URL Bar Settings:**
+  * Centeres the text inside the URL Bar: ```Always Centered```
+  * Enable a background blur when the URL bar is focused & select its intensity: ```Really Strong```
+  * [x] Always open websites in a new tab when using url bar
+
+<br>
+
 ## Browser Transparency
+
+### Windows 11
+
+#### - Mica For Everyone
+
+### Windows 10
+
+#### - DWMBlurGlass
+
+### MacOS
+
+#### - Something
+
+### Linux
+
+#### - KDE
+
+#### - Gnome
 
 ## Gradients (optional)
 
@@ -172,7 +244,7 @@ These are the configs you need to use. If they do not exist, type the config and
 #
 
 
-# FAQs
+# FAQ
 ### "Can I use other userchromes with Pineapple Fried?"
 Sure! Just paste it right below the Pineapple Fried loader (userChrome.css) and you can use your own
 userchrome alongside Pineapple Fried.
