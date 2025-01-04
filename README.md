@@ -82,7 +82,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 2. Download the **"cohesion"**, **"natsumi-tweaks"**, and **"wass-tweaks"** folders from above and drop them into your **"chrome"** folder. 
 
-3. Add these import statements to your **userChrome.css** (*or download the userChrome.css file from above and place it in your **chrome** folder*):
+3. Add these import statements to your **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
 ```
 /* Wazz-Tweaks */
 @import "wazz/wazz.css";
@@ -101,7 +101,8 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 ## userContent.css
 
-
+1. Download the **"newtab"** folder from above and drop it into your **"chrome"** folder
+2. Add these import statements to your **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
 
 ## Browser configs (in about:config)
 These are the configs you need to use. If they do not exist, type the config and click the **+** button to create it.
@@ -122,9 +123,38 @@ These are the configs you need to use. If they do not exist, type the config and
 - `natsumi.sidebar.enable-tab-groups`: `true`*
 - `natsumi.sidebar.zen-sidebar-glass-effect`: `true`
 
+## Zen Settings
+
+- Look and Feel 
+  - Select '__Multiple Toolbars__'
+  - Uncheck '__Show New Tab Button on Tab List__'
+  - Uncheck '__Show border for the bottom icons__'
+  - Zen URL bar Behavior = Normal
+- Tab Management
+  - Check '__Hide the default container indicator in the tab bar__'
+  - Check '__Allow workspaces have their own pinned tabs__'
+  - Check '__Display workspaces as an icon strip__'
+- Home 
+  - Homepage and new windows: Firefox Home (default)
+  - New tabs: Firefox Home (default)
+
+## Toolbar Layout
+
+## Mods
+
+## Browser Transparency
+
+## Gradients (optional)
+
+## Extensions (optional)
 
 
-## FAQs
+<br>
+
+#
+
+
+# FAQs
 ### "Can I use other userchromes with Pineapple Fried?"
 Sure! Just paste it right below the Pineapple Fried loader (userChrome.css) and you can use your own
 userchrome alongside Pineapple Fried.
@@ -138,7 +168,7 @@ Pineapple Fried uses a system where the userChrome.css file acts as a loader tha
 instead of being the file that contains all rules. This way, it's easier for users to quickly enable and
 disable custom CSS. This system is reffered to as **uCL** (**u**ser**C**hrome **L**oader).
 
-## Troubleshooting
+# Troubleshooting
 ### "I don't see any of the Natsumi options in about:config!"
 These are custom options which you need to create. Type in the exact name, then press the plus button on
 the right to create the config.
@@ -156,7 +186,7 @@ Please disable these then try again.
 
 If the issue still persists, open an issue or report the bug to the developer through Discord.
 
-## Acknowledgements
+# Acknowledgements
 Thank you to:
 - [greeeen-dev](https://github.com/greeeen-dev) for the incredible work in [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser/tree/main)
 - [asev](https://github.com/lunar-os) for ZenCss, which served as the base for Natsumi Browser's base
