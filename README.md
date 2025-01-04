@@ -10,7 +10,7 @@
   <br>
   Cohesion + Natsumi-Tweaks + Wazz-Tweaks
   <br>
-  <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#what-is-pineapple-fried">What is Pinneapple Fried?</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#features-included">Features Included</a> | Installation | FAQ | Acknowledgements
+  <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#what-is-pineapple-fried">What is Pinneapple Fried?</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#features-included">Features Included</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#installation">Installation</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#faq">FAQ</a> | <a href="https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#acknowledgements">Acknowledgements</a>
 </p>
 
 ![image](https://github.com/user-attachments/assets/52696e11-2e1c-4eb7-bae5-167ff04642ae)
