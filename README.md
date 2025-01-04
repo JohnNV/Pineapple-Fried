@@ -80,15 +80,15 @@ More personal changes with some community additions.
 **Pineapple Fried** and its components are not available on the Zen Mods page, as this isn't intended to be a Mod. You will need to
 install it by copying the files to your profile's chrome folder. Here's a step-by-step guide to follow:
 
-1. [userChrome.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#userchromecss)
-2. [userContent.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#usercontentcss)
-3. [Brower Configs (in about:config)](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#browser-configs-in-aboutconfig)
-4. [Zen Settings](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#zen-settings)
-5. [Toolbar layout](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#toolbar-layout)
-6. [Mods](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#mods)
-7. [Browser Transparency](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#browser-transparency)
-8. [Gradients](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#gradients) (optional)
-9. [Extensions](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#extensions) (optional)
+1. [userChrome.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#1-userchromecss)
+2. [userContent.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#2-usercontentcss)
+3. [Brower Configs (in about:config)](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#3-browser-configs-in-aboutconfig)
+4. [Zen Settings](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#4-zen-settings)
+5. [Toolbar layout](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#5-toolbar-layout)
+6. [Mods](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#6-mods)
+7. [Browser Transparency](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#7-browser-transparency)
+8. [Gradients](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#8-gradients) (optional)
+9. [Extensions](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#9-extensions) (optional)
 
 #
 
