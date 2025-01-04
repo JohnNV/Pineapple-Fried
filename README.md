@@ -104,13 +104,12 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 **c):** Add these import statements to **userChrome.css** (*or download the userChrome.css file from above and place it in your **"chrome"** folder*):
 ```
-/* Wazz-Tweaks */
-@import "wazz/wazz.css";
+@import "Cohesion/Cohesion.css";
 
-/* Cohesion */
-@import "cohesion/cohesion.css";
+@import "natsumi/natsumi.css";
 
-/* Natsumi-Tweaks */
+@import "Wazz/Wazz.css";
+
 @import "natsumi-tweaks/natsumi-tweaks.css";
 ```
 > [!Note]
