@@ -9,7 +9,7 @@
 
 <p align="center">Cohesion + Natsumi-Tweaks + Wazz-Tweaks</p>
 
-<p align="center">What is Pinneapple Fried? | Features Included | Installation | FAQ | Acknowledgements</p>
+<p align="center">[What is Pinneapple Fried?](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#what-is-pineapple-fried) | Features Included | Installation | FAQ | Acknowledgements</p>
 
 ![image](https://github.com/user-attachments/assets/52696e11-2e1c-4eb7-bae5-167ff04642ae)
 
