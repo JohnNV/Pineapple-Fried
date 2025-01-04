@@ -63,7 +63,7 @@ More personal changes with some community additions.
 install it by copying the files to your profile's chrome folder. Here's a step-by-step guide to follow:
 
 1. [userChrome.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#userchromecss)
-2. userContent.css
+2. [userContent.css](https://github.com/TheBigWazz/Pineapple-Fried/blob/main/README.md#usercontentcss)
 3. Brower Configs (in about:config)
 4. Zen Settings
 5. Toolbar layout
