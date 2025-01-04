@@ -9,7 +9,11 @@
 
 <p align="center">Cohesion + Natsumi-Tweaks + Wazz-Tweaks</p>
 
+<p align="center">What is Pinneapple Fried? | Features Included | Installation | FAQ | Acknowledgements</p>
+
 ![image](https://github.com/user-attachments/assets/52696e11-2e1c-4eb7-bae5-167ff04642ae)
+
+
 
 ## What is Pineapple Fried?
 Pineapple Fried is a pack of customizations (a 'rice') made for [Zen Browser](https://zen-browser.app).
@@ -31,10 +35,7 @@ Pineapple Fried has been tested on these versions of Zen:
 
 </div>
 
-<br>
-
-
-## Features Included:
+## Features Included
 
 <br>
 
