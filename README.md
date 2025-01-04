@@ -20,8 +20,6 @@ Pineapple Fried is a pack of customizations (a 'rice') made for [Zen Browser](ht
 
 It integrates new UI styles, personal tweaks, and a compatibility layer for [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser/tree/main)
 
-#
-
 <br>
 
 <div align="center">
@@ -36,8 +34,6 @@ Pineapple Fried has been tested on these versions of Zen:
 </div>
 
 ## Features Included
-
-<br>
 
 <h3 align="left">
   <img width="80" height="80" src="https://github.com/user-attachments/assets/242e9477-3149-473a-8c1d-655476f7dba3">
