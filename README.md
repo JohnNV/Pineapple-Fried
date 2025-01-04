@@ -123,7 +123,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 ## 2. userContent.css
 
-**a):** Download the **"newtab"** folder from above and drop it into your **"chrome"** folder
+**a):** Download the **"zen-new-tab"** folder from above and drop it into your **"chrome"** folder
 
 **b):** Add these import statements to **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
 ```
@@ -189,7 +189,7 @@ These are the configs you need to use. If they do not exist, type the config and
 
 <br>
 
-## Mods
+## 6. Mods
 
 * [Bottom Essentials](https://zen-browser.app/mods/477bc813-c333-4747-813e-00e0420ceec0)
 * [Better Unloaded Tabs](https://zen-browser.app/mods/f7c71d9a-bce2-420f-ae44-a64bd92975ab)
@@ -214,11 +214,24 @@ These are the configs you need to use. If they do not exist, type the config and
 
 <br>
 
-## Browser Transparency
+## 7. Browser Transparency
 
 ### Windows 11
 
-#### - Mica For Everyone
+#### **- Mica For Everyone**
+
+- Download and install from their repo: https://github.com/MicaForEveryone/MicaForEveryone
+- After installing, open and click the '__+__' button in the bottom left corner
+- Click '__Add Process Rule__'
+- Type `zen`
+- Select `zen` in the list on the left
+- Style Settings:
+  - Titlebar Color: `Default`
+  - Backdrop Type: `Mica`
+  - Corner Mode: `Default`
+- Advanced:
+  - Extend Frame Into Client Area: `Off`
+  - Blur Behind: `On`
 
 ### Windows 10
 
