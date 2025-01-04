@@ -33,15 +33,29 @@ Pineapple Fried has been tested on these versions of Zen:
 
 <br>
 
-## Features
-### Cohesion
-Cohesion adds an integrated URL style, transparent newtab pages, and a *cohesive* transparent look to the various bars and panels
 
-[![](https://github.com/user-attachments/assets/e19e1a3d-c3ea-42a1-a655-4b9353463ca5)](https://github.com/user-attachments/assets/e19e1a3d-c3ea-42a1-a655-4b9353463ca5)
+## Features Included:
 
 <br>
 
-### Natsumi Tweaks
+<h3 align="left">
+  <img width="80" height="80" src="https://github.com/user-attachments/assets/242e9477-3149-473a-8c1d-655476f7dba3">
+  <br>
+  Cohesion
+</h3>
+
+Cohesion adds an integrated URL style, transparent newtab pages, and a *cohesive* transparent look to the various bars and panels
+
+https://github.com/user-attachments/assets/2bf31d3a-18e0-4405-9389-8d0f036127a4
+
+<br>
+
+<h3 align="left">
+  <img width="80" height="80" src="https://github.com/user-attachments/assets/a44b390d-4c25-474a-af08-434d81cd34dc">
+  <br>
+  Natsumi-Tweaks
+</h3>
+
 Get the stylish appearance, animations, and features of [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser/tree/main), made compatible with Cohesion with some personal tweaks. 
 
 **This is a compatibility layer that only works if regular Natsumi is already installed.*
@@ -50,7 +64,12 @@ Get the stylish appearance, animations, and features of [Natsumi Browser](https:
 
 <br>
 
-### Wazz-Tweaks
+<h3 align="left">
+  <img width="80" height="80" src="https://github.com/user-attachments/assets/ebeb7514-9984-40db-a81f-6b1bb5cc50ff">
+  <br>
+  Wazz-Tweaks
+</h3>
+
 More personal changes with some community additions.
 
 ![image](https://github.com/user-attachments/assets/65e6e6f7-da21-489a-a8c6-aa97572420e2)
