@@ -7,7 +7,7 @@ If you already have one, append the import statement below at the top of your us
 
 @import "Cohesion/Cohesion.css";
 
-@import "natsumi/natsumi.css";
+/* @import "natsumi/natsumi.css" */
 
 @import "Wazz/Wazz.css";
 
