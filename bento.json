@@ -1,9 +1,9 @@
 {
   "package": {
-    "name": "Natsumi Browser",
-    "author": "Green (@greeeen-dev)",
-    "version": "2.0.1",
-    "source": "https://github.com/greeeen-dev/natsumi-browser",
+    "name": "Pineapple Fried",
+    "author": "@TheBigWazz",
+    "version": "0.0.1",
+    "source": "https://github.com/TheBigWazz/Pineapple-Fried/",
     "license_filepath": "LICENSE",
     "include": ["userChrome", "userContent"]
   }
