@@ -29,7 +29,7 @@ Pineapple Fried has been tested on these versions of Zen:
 | Build | Version | Date |
 | ------ | ------ | ------|
 | **Beta** | `1.0.2-b.5` | Dec. 26, 2024 |
-| **Twilight** | `1.6t` | Jan. 04, 2025 |
+| **Twilight** | `1.6t` | Jan. 05, 2025 |
 
 </div>
 
