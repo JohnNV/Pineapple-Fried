@@ -115,7 +115,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 
 ## 2. userContent.css
 
-**a):** Download the **"zen-new-tab"** folder from above and drop it into your **"chrome"** folder
+**a):** The **"zen-new-tab"** folder should already be inside the **"pineapple-fried"** folder
 
 **b):** Add this import statement to **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
 ```
