@@ -120,7 +120,7 @@ install it by copying the files to your profile's chrome folder. Here's a step-b
 **b):** Add this import statement to **"userContent.css"** (*or download the userContent.css file from above and place it in your **"chrome"** folder*):
 ```
 /* zen new tabs */
-@import "zen-new-tabs/zen-new-tabs.css";
+@import "pineapple-fried/zen-new-tabs/zen-new-tabs.css";
 ```
 
 <br>
