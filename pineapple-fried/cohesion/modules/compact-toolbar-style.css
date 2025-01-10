@@ -45,10 +45,6 @@
       box-shadow: none !important;
     }
 
-    /* Main Browser Panel */
-    #tabbrowser-tabpanels {
-    }
-
     /* Sidebar */
     #sidebar-box {
       margin-top: 1px !important;
@@ -66,10 +62,6 @@
     .browserSidebarContainer {
       border-radius: 0px 10px 10px 0px !important;
       box-shadow: none !important;
-    }
-
-    /* Main Browser Panel */
-    #tabbrowser-tabpanels {
     }
 
     /* Zen Sidebar */
@@ -100,10 +92,6 @@
     .browserSidebarContainer {
       border-radius: 0px 10px 10px 0px !important;
       box-shadow: none !important;
-    }
-
-    /* Main Browser Panel */
-    #tabbrowser-tabpanels {
     }
 
     /* Normal Sidebar */
@@ -170,10 +158,6 @@
       border-radius: 10px 0px 0px 10px !important;
       box-shadow: none !important;
     }
-
-    /* Main Browser Panel */
-    #tabbrowser-tabpanels {
-    }
             
     /* Normal Sidebar */
     #sidebar-box {
@@ -197,7 +181,7 @@
       border-radius: 10px 10px 10px 10px !important;
       box-shadow: none !important;
       margin-left: 0px !important;
-      margin-right: 0px !imoprtant;
+      margin-right: 0px !important;
   }
 }
 
